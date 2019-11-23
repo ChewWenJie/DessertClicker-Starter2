@@ -42,7 +42,7 @@ class MainActivity : AppCompatActivity() {
         super.onResume()
         Timber.i("onResume Called")
     }
-
+//
     override fun onPause() {
         super.onPause()
         Timber.i("onPause Called")
